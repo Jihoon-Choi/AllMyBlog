@@ -29,7 +29,7 @@ errorPage="DBError.jsp" %>
 				<form action="loginp.jsp" method="post">
 					아이디 : <input type="text" name="id"/><br>
 					비밀번호 : <input type="password" name="passwd"><br>
-					<input type="submit" value="로그인"/>
+					<a href="./login.jsp"><input type="submit" class="btn btn-primary" name="input" value="Log-in" style="width:100px"></a>
 				</form>
 				
 				

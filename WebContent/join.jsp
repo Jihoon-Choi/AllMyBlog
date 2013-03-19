@@ -21,12 +21,29 @@
 			
 			<div id="contents_main">
 				<h1>회원가입</h1>
-				<form action="./joinp.jsp" method="post">
-					이름 : <input type="text" name="name"><br>
-					아이디 : <input type="text" name="id"><br>
-					비밀번호 : <input type="text" name="passwd"><br>					
-					<input type="submit" value="회원가입"/>
-				</form>
+				
+				<form action="./join" method="post">
+					<table>				
+					  <tr>
+							<td>이름 :</td>
+							<td> <input type="text" name="name"></td>	
+						</tr>
+						<tr>
+							<td>아이디 :</td>
+							<td><input type="text" name="id"></td>				
+						</tr>
+						<tr>
+							<td>비밀번호 :</td>
+							<td><input type="text" name="passwd"></td>	
+						</tr>
+						<tr>					
+							<td><input type="submit" value="회원가입"/></td>
+						</tr>
+					</table>
+					</form>
+				
+				
+						
 			</div>
 			
 			<div id="footer">			
